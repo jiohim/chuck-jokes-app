@@ -12,8 +12,8 @@ public class JokeStringService implements JokeService {
     private final ChuckNorrisQuotes chuckNorrisQuotes;
 
 
-    public JokeStringService() {
-        this.chuckNorrisQuotes = new ChuckNorrisQuotes();
+    public JokeStringService(ChuckNorrisQuotes chuckNorrisQuotes) {
+        this.chuckNorrisQuotes = chuckNorrisQuotes;
     }
 
 
